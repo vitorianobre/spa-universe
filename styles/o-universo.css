@@ -1,0 +1,14 @@
+body {
+    background-image: url('/images/mountains-universe02.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#app {
+    padding: 6.3rem 0 0 10.2rem;
+}
+
+h1 {
+    margin-bottom: 1.6rem;
+}

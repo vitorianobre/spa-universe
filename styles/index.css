@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --txt-nav: #C4C4CC;
+    --txt-body: #E1E1E6;
+    --btn: #FFFFFF;
+    --btn-hover: #02799D;
+}
+
+html, body {
+    height: 100%;
+
+    background-color: black;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+}
+
+nav {
+    padding: 4rem 0 4rem 7.2rem;
+
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+}
+
+nav a {
+    text-decoration: none;
+
+    font-weight: 400;
+    font-size: 2.1rem;
+    line-height: 2.2rem;
+    color: var(--txt-nav);
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 4.8rem;
+    line-height: 125%;
+
+    color: var(--txt-body);
+}
+
+p {
+    max-width: 64.8rem;
+
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 160%;
+    color: var(--txt-body);
+}
+
+.active {
+    font-weight: 700;
+    color: var(--btn);
+}
